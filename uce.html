@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Universidad Central del Ecuador</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      background-color: #f5f5f5;
+    }
+
+    header, nav, main, aside, section, article, footer {
+      padding: 18px;
+      margin: 10px;
+      border-radius: 10px;
+      color: #222;
+      border: 2px solid rgba(0,0,0,0.1);
+      background: white;
+    }
+
+    header {
+      background-color: #005baa;
+      color: white;
+      text-align: center;
+    }
+
+    header img {
+      width: 100px;
+      border-radius: 50%;
+    }
+
+    nav {
+      background-color: #e6eef9;
+      text-align: center;
+    }
+
+    nav a {
+      color: #005baa;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    main {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    aside {
+      background-color: #fff282;
+      width: 28%;
+      min-width: 180px;
+    }
+
+    section {
+      background-color: #acffa4;
+      width: 72%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    article {
+      background-color: #33e050;
+      border: 2px dashed rgba(0,0,0,0.1);
+      padding: 14px;
+      border-radius: 8px;
+    }
+
+    article img {
+      width: 50%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-top: 6px;
+      align-items: center;
+    }
+
+    footer {
+      background-color: #ff9c9c;
+      text-align: center;
+      font-size: 14px;
+      color: #555;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+
+    @media (max-width: 700px) {
+      main { flex-direction: column; }
+      aside, section { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img src="https://yt3.googleusercontent.com/ytc/AIdro_k793Weyskbxi9F8oIlSEUCfGyGzq09EK43GTKdRmwv2IJo=s900-c-k-c0x00ffffff-no-rj" alt="Logo UCE">
+    <h1>Universidad Central del Ecuador</h1>
+    <p>"Formando profesionales con excelencia desde 1826"</p>
+  </header>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#">Inicio</a> |
+    <a href="#">Facultades</a> |
+    <a href="#">Carreras</a> |
+    <a href="#">Noticias</a> |
+    <a href="#">Contacto</a>
+  </nav>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- ASIDE -->
+    <aside>
+      <h2>Comunicate</h2>
+      <ul>
+        <li><a>info@uce.edu.ec</a></li>
+        <li><a>Tel: (02) 252-7186</a></li>
+        <li><a>Correo Institucional</a></li>
+      </ul>
+      <h3>Eventos próximos</h3>
+      <p>📅 Conferencia sobre innovación educativa — 15 de noviembre</p>
+    </aside>
+
+    <!-- SECTION -->
+    <section>
+      <h2>Sobre la Universidad</h2>
+
+      <!-- ARTICLE 1 -->
+      <article>
+        <h3>Historia</h3>
+        <p>La Universidad Central del Ecuador es la institución de educación superior más antigua del país, fundada en 1826. A lo largo de su historia ha contribuido al desarrollo científico, social y cultural del Ecuador.</p>
+        <img src="https://revistarupturas.com/wp-content/uploads/2023/06/UCE-historia.jpeg" alt="Campus UCE">
+      </article>
+
+      <!-- ARTICLE 2 -->
+      <article>
+        <h3>Facultades</h3>
+        <p>Cuenta con diversas facultades como Ciencias Médicas, Filosofía, Jurisprudencia, Ingeniería, Arquitectura, Ciencias Administrativas y muchas más.</p>
+        <img src="https://aka-cdn.uce.edu.ec/ares/w/facs/fflce/IMAGEN/NOTICIAS/2018/Febrero/26feb.jpg" alt="Facultad de Ingeniería">
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© Elabordo por Evelyn Amagua </p>
+    <p>Quito, Ecuador 2025</p>
+  </footer>
+
+</body>
+</html>
